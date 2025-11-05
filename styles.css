@@ -1,0 +1,70 @@
+body{
+    background-color:beige;
+    }
+
+.image{
+    width:100px;
+    border-radius:50px
+  
+}
+.container1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    color: rgb(124, 124, 112)
+}
+h2{
+    color: rgb(124, 124, 112)
+}
+button{
+    background-color:
+        lightgreen;
+        border:none;
+        width:70%;
+        height:60px;
+        font-weight: bold;
+        font-size:20px;
+        margin-bottom: 15px;
+        color:white
+    }
+.button{
+    display:flex;
+    justify-content: center;
+}
+.reviews{
+    background-color:lightpink
+}
+hr{
+    margin-bottom:20px
+}
+.container2{
+    margin-top:40px
+}
+.pic{
+    width:600px;
+    margin-bottom:15px
+}
+@media (max-width:800px){
+    .pic{
+        width:500px;
+    margin-bottom:15px
+    }
+    body{
+        padding-bottom:200px
+    }
+}
+@media (min-width:800px){
+    .pictures{display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        gap:20px
+    }
+    body{
+        padding-bottom:200px
+    }
+}
+
