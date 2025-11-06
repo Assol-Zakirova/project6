@@ -1,5 +1,6 @@
 body{
     background-color:beige;
+    padding-bottom:200px
     }
 
 .image{
@@ -22,15 +23,17 @@ h2{
 }
 button{
     background-color:
-        lightgreen;
-        border:none;
-        width:70%;
-        height:60px;
-        font-weight: bold;
-        font-size:20px;
-        margin-bottom: 15px;
-        color:white
-    }
+    lightgreen;
+    border:none;
+    width:90%;
+    height:90px;
+    font-weight: bold;
+    font-size:30px;
+    margin-bottom: 15px;
+    color:white
+
+}
+    
 .button{
     display:flex;
     justify-content: center;
@@ -45,31 +48,11 @@ hr{
     margin-top:40px
 }
 .pic{
-    width:600px;
-    margin-bottom:15px
+    width:500px;
+margin-bottom:15px
 }
-@media (max-width:600px){
-    .pic{
-        width:500px;
-    margin-bottom:15px
-    }
-    body{
-        padding-bottom:200px
-    }
-    button{
-        background-color:
-        lightgreen;
-        border:none;
-        width:100%;
-        height:90px;
-        font-weight: bold;
-        font-size:30px;
-        margin-bottom: 15px;
-        color:white
 
-    }
-}
-@media (min-width:600px){
+@media (min-width:800px){
     .pictures{display:flex;
         flex-wrap:wrap;
         justify-content: center;
