@@ -61,5 +61,17 @@ margin-bottom:15px
     body{
         padding-bottom:200px
     }
+    button{
+        background-color:
+        lightgreen;
+        border:none;
+        width:80%;
+        height:70px;
+        font-weight: bold;
+        font-size:30px;
+        margin-bottom: 15px;
+        color:white
+    
+    }
 }
 
