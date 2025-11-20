@@ -4,10 +4,11 @@ body{
     }
 
 .image{
-    width:200px;
-    border-radius:100px
+    width:300px;
+    border-radius:150px
   
 }
+
 .container1{
     display:flex;
     flex-direction: column;
@@ -16,10 +17,13 @@ body{
     
 }
 h1{
-    color: rgb(124, 124, 112)
+    color: rgb(124, 124, 112);
+    font-size:40px;
 }
 h2{
-    color: rgb(124, 124, 112)
+    color: rgb(124, 124, 112);
+    font-size: 35px
+
 }
 button{
     background-color:
@@ -36,10 +40,12 @@ button{
     
 .button{
     display:flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .reviews{
-    background-color:lightpink
+    background-image:linear-gradient(to bottom, rgb(218, 130, 144) 0%, pink 100%)
 }
 hr{
     margin-bottom:20px
@@ -57,6 +63,10 @@ margin-bottom:15px
     flex-direction: column;
     align-items: center;
 }
+.menu{
+    background-image:linear-gradient(to bottom, rgb(82, 164, 82) 0%, lightgreen 90%);
+}
+
 
 @media (min-width:987px){
     .pictures{display:flex;
@@ -82,6 +92,16 @@ margin-bottom:15px
     }
     .container2{
         font-size:15px;
+    }
+    .image{
+        width:200px;
+        border-radius:100px
+    }
+    h1{
+        font-size:30px;
+    }
+    h2{
+        font-size:25px;
     }
 }
 
