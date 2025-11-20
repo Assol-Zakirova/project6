@@ -66,8 +66,38 @@ margin-bottom:15px
 .menu{
     background-image:linear-gradient(to bottom, rgb(82, 164, 82) 0%, lightgreen 90%);
 }
+.aboutus{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
+.text{
+    display:flex;
+    flex-direction: row;
+    margin-left:60px;
+    margin-bottom:10px;
+    border-radius:10px;
+    width:500px;
+    background-color:white;
+    box-shadow: 2px 2px 5px grey;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph{
+    margin-left:20px
+}
+.icon{
+    margin-left:15px
+}
+.div_icon{
+    margin-top:15px;
+    margin-right:10px
+}
 @media (min-width:987px){
     .pictures{display:flex;
         flex-direction: row;
@@ -102,6 +132,10 @@ margin-bottom:15px
     }
     h2{
         font-size:25px;
+    }
+    .aboutus{
+        display:flex;
+        flex-direction: row;
     }
 }
 
