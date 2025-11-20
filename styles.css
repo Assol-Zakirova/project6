@@ -78,9 +78,10 @@ margin-bottom:15px
     margin-left:60px;
     margin-bottom:10px;
     border-radius:10px;
-    width:500px;
+    width:800px;
+    height: 90px;
     background-color:white;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 3px 15px grey;
 }
 .info{
     display:flex;
@@ -98,8 +99,21 @@ margin-bottom:15px
     margin-top:15px;
     margin-right:10px
 }
-@media (min-width:987px){
-    .pictures{display:flex;
+.hr{
+    display:block;
+    width:1500px;
+    height:2px;
+    background-color:black;
+}
+.last_icons{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 50px;
+    margin-top:100px
+}
+@media (min-width:987px)
+{.pictures{display:flex;
         flex-direction: row;
         flex-wrap:wrap;
         justify-content: center;
@@ -136,6 +150,11 @@ margin-bottom:15px
     .aboutus{
         display:flex;
         flex-direction: row;
+    }
+    .text{
+        width:500px;
+        background-color:white;
+        
     }
 }
 
