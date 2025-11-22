@@ -23,7 +23,7 @@ h3{
     color: rgb(124, 124, 112);
 }
 .image{
-    margin-top:60px;
+    margin-top:90px;
     width:300px;
     border-radius:150px
   
@@ -121,7 +121,7 @@ margin-bottom:15px
 }
 .hr{
     display:block;
-    width:850px;
+    width:950px;
     height:2px;
     background-color:black;
 }
