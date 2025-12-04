@@ -35,6 +35,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 15px
     
 }
 h1{
@@ -75,15 +76,18 @@ hr{
     margin-top:40px;
     font-size:20px;
 }
+
 .pic{
-    width:500px;
-margin-bottom:15px
+    width:600px;
+    margin-bottom:15px;
 }
+
 .pictures{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px; 
 }
+
 .menu{
     background-image:linear-gradient(to bottom, rgb(82, 164, 82) 0%, lightgreen 90%);
 }
@@ -91,6 +95,7 @@ margin-bottom:15px
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .text{
@@ -120,9 +125,12 @@ margin-bottom:15px
     margin-top:15px;
     margin-right:10px
 }
+.divider{
+    display:flex;
+}
 .hr{
+    flex:1;
     display:block;
-    width:950px;
     height:2px;
     background-color:black;
 }
@@ -137,12 +145,13 @@ margin-bottom:15px
     width:30px;
     height:30px
 }
-@media (min-width:987px)
-{.pictures{display:flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-        justify-content: center;
-        gap:20px
+@media (min-width:987px) {
+    .pictures{
+        display: grid;
+        grid-template-columns: 600px 600px;
+        gap: 10px;
+        place-self: center;
+
     }
     body{
         padding-bottom:200px
